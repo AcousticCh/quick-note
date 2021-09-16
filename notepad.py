@@ -12,7 +12,7 @@ path_test = os.path.exists(notepad_file_path)
 if path_test == True:
 	os.path.exists(notepad_file_path)
 else:
-	sub.call(["mkdir ", notepad_file_path])
+	sub.call(["mkdir", notepad_file_path])
 	print("false")
 
 #try:
