@@ -15,7 +15,7 @@ else:
 	sub.call(["mkdir", notepad_file_path])
 	print("false")
 
-#try:
+
 sub.call("clear")
 user_file_call = input(
 "Would you like to:\nCreate a new file? Type \"n\"\nAdd to a file? Type \"a\"\nOverwrite a file? Type \"o\"\nRead a file? Type \"r\"\nDelete a file? Type \"d\"\n[+] Options (n/a/o/r/d): ")
@@ -74,5 +74,3 @@ else:
 	print("[-] Invalid Input: Please only type given options")
 	
 		
-#except:
-	#print("False")
